@@ -1,15 +1,17 @@
 * {
   margin: 0;
+
   font-family: sans-serif;
 }
 
-/* this part is responsible for header section */
 header {
   margin-bottom: 100px;
 
   background-color: #3d4a59;
   color: white;
   border-radius: 0 0 70px 70px;
+
+ 
 }
 
 header h1 {
@@ -25,6 +27,7 @@ header h1 {
 .parent li a {
   color: #fff;
   text-decoration: none;
+
   margin-top: 6px;
   display: inline-block;
 }
@@ -45,45 +48,41 @@ li {
   font-size: 18px;
 }
 
-/* h1 is responsible for the word [Defination Site, About ME, My Work*/
 h1 {
   text-align: center;
   padding: 10px 0;
+
   width: 40%;
   margin-left: auto;
   margin-right: auto;
+
   background-color: #3d4a59;
   color: #fff;
   border-radius: 17px;
+
   padding: 15px;
 }
 
-/* this part is responsible for about me section */
 section {
   margin-bottom: 100px;
   box-shadow: 5px 5px 25px rgb(179, 172, 172);
+
   width: 97%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 13px;
-  padding: 45px 0;
-}
 
-.flex {
-  display: flex;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  margin-top: 60px;
+  padding: 45px 0;
 }
 
 .left-section,
 .right-section {
   width: 49%;
+
+  text-align: center;
+  margin-top: 60px;
 }
 
-/* this part is responsible for left section */
 .left-section h3 {
   font-size: 26px;
   margin: 20px 0;
@@ -91,63 +90,23 @@ section {
 
 .left-section p {
   font-size: 20px;
-  margin: 25px 0 60px;
+  margin: 25px 0;
 }
 
-/* aswomne style buttons */
-.facebook, .youtube {
+
+.youtube ,.facebook {
+  background-color: royalblue;
   color: #fff;
-  box-shadow: 3px 7px 5px rgba(0, 0, 0, 0.208); /* Enhanced shadow on hover */
-  text-decoration: none;
-  background: #4267B2; 
-  border: 2px solid #29487d;
-  /* scale */
   margin: 10px;
   padding: 8px 16px;
-  border-radius: 15px;
-  display: inline-block;
-  /* text */
-  font-weight: bold;
-  /* effect :any button beside should take those three lines
-   and the before effect*/
-  position: relative;
-  overflow: hidden;
-  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 6px;
+  text-decoration: none;
 }
-.youtube:before,.facebook:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
-  transition: left 0.3s ease-in-out;
-}
-.youtube:hover,.facebook:hover {
-  color: royalblue;
-  background-color: #fff; 
-  border-radius: 10px;
-  transform: scale(1.05); 
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.655);
-  border: 2px solid #1e00ffd8;
-}
-.youtube:hover::before, .facebook:hover:before {
-  left: 100%;
-} 
-
 .youtube {
   background-color: rgb(255, 62, 62);
-  border: 2px solid #7d2929;
-}
-.youtube:hover{
-  color: rgb(255, 62, 62);
-  background-color: #fff; 
-  border: 2px solid #ff0000d8;
 }
 
 
-/* this part is responsible for left section */
 .my-img {
   border-radius: 50%;
   width: 150px;
@@ -161,7 +120,7 @@ section {
 article h5 {
   font-size: 39px;
   font-weight: 500;
-  font-family: "Sacramento";
+  font-family: "Sacramento", cursive;
   margin-top: 10px;
 }
 
@@ -171,20 +130,24 @@ article h5 {
 
 }
 
+.flex {
+  display: flex;
 
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-
-
-
-
-
-
+footer {
+  text-align: center;
+}
 
 .design {
   background-color: #3d4a59;
   color: #fff;
   padding: 15px;
   text-align: center;
+
   border-top-left-radius: 35px;
   border-top-right-radius: 35px;
   margin-bottom: 0;
@@ -197,6 +160,7 @@ article h5 {
   text-align: center;
   margin: 0 auto 10px;
   border-top: 6px solid #3d4a59;
+
   opacity: 0.9;
   width: 99%;
 }
@@ -207,6 +171,7 @@ article h5 {
   padding: 4px 10px;
   text-decoration: none;
 }
+
 .follow a:hover {
   padding: 5px 12px;
   background-color: rgb(16, 73, 243);
@@ -215,11 +180,14 @@ article h5 {
 
 
 .mycard{
-margin-left: auto;
+  margin-left: auto;
 margin-right: auto;
+
 margin-top: 50px;
+
 border-radius: 5px;
 }
+
 .bcenter{
 width: 100%;
 text-align: center;
