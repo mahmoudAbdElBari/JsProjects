@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>ALL my JS studies</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="js/main.js"></script>
+    <script defer src="js/Changecolor.js"></script>
+    <script defer src="js/autowriting.js"></script>
+    <script defer src="js/random quotes.js"></script>
+    <script defer src="js/random-hearts.js"></script>
+    <script defer src="js/accordion.js"></script>
+  </head>
+
+  <body id="body">
+    <header id="header" class="myheader">
+      <h1 id="headerTX">Defination Site</h1>
+      <nav>
+        <ul class="parent">
+          <li id="dark" class="mode">change mode</li>
+          <li><a href="showslide.html"> SliderShow </a></li>
+          <li id="chcolor">
+            Change Color
+            <ul id="hiddenul" style="display: none">
+              <li id="headerbg">Header BG</li>
+              <li id="titlebg">Title BG</li>
+              <li id="titlecolor">Title color</li>
+              <li id="sectionbg">section BG</li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="sec">
+        <h1>About ME</h1>
+        <div class="flex">
+          <article class="left-section">
+            <h3>Target</h3>
+            <p>This project shows that .....</p>
+            <a
+              id="you"
+              class="youtube"
+              href="https://www.w3schools.com/jsref/obj_event.asp"
+            >
+              youtube
+            </a>
+            <a class="facebook" href=""> facebook </a>
+          </article>
+
+          <article class="right-section">
+            <div class="my-img-container">
+              <img class="my-img" src="mooody.jpg" alt="Morning" />
+            </div>
+
+            <h5>Mahmoud Hassan</h5>
+            <p class="para">
+              Communication Engineer <br />& <br />
+              Front-End Developer
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h1 dir="rtl">My Work</h1>
+        
+        <div id="parent-iframe">
+        <div id="iframeContainer">
+            <iframe
+              id="myframe"
+              src="https://www.youtube.com/embed/8CFcV_fv810?si=2wBfVzGUarOd6VvL"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+        </div>
+          <button id="addvideo" class="btnsty">Random Video</button>
+        </div>
+
+
+      
+          <div id="quoteContainer" >
+            <blockquote class="Etext" dir="rtl" lang="ar" >
+              <p>الثقة بالنفس تصنع المُعجزات
+                &#128521;
+                </p>
+                <footer>   شخص عارف قيمة نفسة  </footer>  
+            </blockquote>
+          </div>
+          <button id="addquot" class="btnsty">Random Quotes</button>
+    </section>
+
+      <section>
+        <h1 dir="rtl">Javascript congratulations animation</h1>
+        <div id="containerheart"  > </div>
+        <button id="randomhearts" class="btnsty">Hearts </button>
+      </section>
+
+      <section>
+        <h1 dir="rtl">javascript accordion</h1>
+
+        <div class="container-of-qa">
+
+          <div class="q1">
+            <div class="title-accordion">
+              <h2>what is c4a ?</h2>
+              <div class="plus">+</div>
+            </div>
+            <p class="content">1- Lorem ipsum dolor sit amet</p>
+          </div>
+
+
+
+          <div class="q2">
+            <div class="title-accordion">
+              <h2>what is c4a ?</h2>
+              <div class="plus">+</div>
+            </div>
+            <p class="content">
+              1- Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Aliquid quisquam beatae non unde earum voluptate inventore, porro
+              nihil aspernatur harum magni a maxime enim quibusdam, nemo
+              consequatur quae vitae necessitatibus?
+            </p>
+          </div>
+
+
+          <div class="q3">
+            <div class="title-accordion">
+              <h2>what is c4a ?</h2>
+              <div class="plus">+</div>
+            </div>
+            <p class="content">
+              1- Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Aliquid quisquam beatae non unde earum voluptate inventore, porro
+              nihil aspernatur harum magni a maxime enim quibusdam, nemo
+              consequatur quae vitae necessitatibus? Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Id reiciendis, ab ullam facilis sit
+              nostrum reprehenderit modi dicta in blanditiis, rerum ipsam,
+              placeat vel nobis accusamus? Dolorem ut possimus ex.
+            </p>
+          </div>
+
+        </div>
+
+
+      </section>
+    </main>
+
+    <footer>
+      <p class="follow">
+        يُمكنك متابعة اخر أخبار الموقع علي
+
+        <a href=""> الفيسبوك </a>
+      </p>
+
+      <p class="design">Designed and developed by Mahmoud Hassan © 2023</p>
+    </footer>
+  </body>
+</html>
